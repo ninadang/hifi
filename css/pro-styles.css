@@ -19,6 +19,17 @@ h2 {
 	margin-top: -5px;
 }
 
+.sidebar {
+	float: left;
+	margin-right: 2%;
+	border-right-style: solid;
+	border-width: 1px;
+}
+
+.navbar {
+	margin-bottom: 0px;
+}
+
 .response{
 	margin-top: -10px;
 }
@@ -49,8 +60,10 @@ h2 {
 
 .content-box {
 	margin-top: 2%;
-	margin-left: 3%;
+	margin-left: 15%;
 	font-family: 'Arial';
+	float: left;
+	position: absolute;
 }
 
 .instructions {
@@ -66,6 +79,7 @@ h2 {
 	max-width: 30%;
 	padding-left: 4px;
 	padding-bottom: 5px;
+
 }
 
 .contents a {
@@ -101,4 +115,31 @@ h2 {
 #load {
 	margin-left: 90%;
 	margin-top: 1%;
+}
+
+.nav-links {
+	background-color: #E3E3E3;
+	width: 175px;
+	height: 1600px;
+	padding-top: 5px;
+}
+
+nav li {
+    text-align: left;
+    padding-top: 3px;
+   	padding-bottom: 3px;
+}
+
+.nav-links a {
+	text-decoration: none;
+}
+
+ul {
+	list-style: none outside none;
+}
+
+.globe {
+	margin-top: 35%;
+	margin-left: 18px;
+	margin-bottom: 20px;
 }
